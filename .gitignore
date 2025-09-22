@@ -1,0 +1,73 @@
+# ========================
+# Compiled object files
+# ========================
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ========================
+# Build directories
+# ========================
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+/dist/
+
+# ========================
+# IDE-specific files
+# ========================
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.pdb
+*.ipch
+*.db
+*.opendb
+*.VC.db
+*.idb
+
+# Visual Studio Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# ========================
+# CMake-generated files
+# ========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ========================
+# Logs / OS junk
+# ========================
+*.log
+*.DS_Store
+Thumbs.db
